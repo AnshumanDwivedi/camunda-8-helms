@@ -3,11 +3,11 @@
 # Already have a Cluster? Set these values to point to your existing environment
 # Otherwise, these values will be used to create a new Cluster
 
-#project ?= camunda-researchanddevelopment
-project ?= YOUR_GCP_PROJECT
-#region ?= us-east1-b # see: https://cloud.withgoogle.com/region-picker/
-region ?= YOUR_GCP_REGION
-clusterName ?= YOUR_CLUSTER_NAME
+project ?= camunda-researchanddevelopment
+#project ?= YOUR_GCP_PROJECT
+region ?= us-east1-b # see: https://cloud.withgoogle.com/region-picker/
+₹region ?= YOUR_GCP_REGION
+clusterName ?= gke001
 
 machineType ?= n1-standard-16
 minSize ?= 1
